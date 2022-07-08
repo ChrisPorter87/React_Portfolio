@@ -8,7 +8,7 @@ function About() {
       <img
         src={coverImage}
         className="my-2"
-        style={{ width: "100%" }}
+        style={{ width: "100%", height: "50%" }}
         alt="cover"
       />
       <div className="my-2">

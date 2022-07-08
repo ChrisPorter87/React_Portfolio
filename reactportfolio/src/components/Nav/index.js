@@ -12,15 +12,11 @@ function Nav(props) {
   } = props;
   return (
     <header className="flex-row px-1">
-      <h2>
+      <h4>
         <a data-testid="link" href="/">
-          <span role="img" aria-label="camera">
-            {" "}
-            📸
-          </span>{" "}
-          Oh Snap!
+          Chris Porter React Portfolio
         </a>
-      </h2>
+      </h4>
       <nav>
         <ul className="flex-row">
           <li>
