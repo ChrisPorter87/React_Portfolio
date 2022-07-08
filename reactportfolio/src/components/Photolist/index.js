@@ -7,6 +7,8 @@ const PhotoList = ({ category }) => {
       category: "group",
       description:
         " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+
+      githublink: "https://github.com/charliebear2000/Food-andDrink-DB",
     },
     {
       name: "Flute and Fork",
@@ -52,21 +54,24 @@ const PhotoList = ({ category }) => {
     },
     {
       name: "ExpressNoteTaker",
-      category: "solo",
+      category: "portfolio",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+      link: "https://secure-taiga-31332.herokuapp.com/notes",
     },
     {
       name: "Burrito",
-      category: "solo",
+      category: "portfolio",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+      link: "https://ckoehler16.github.io/Cocktail-Generator/",
     },
     {
       name: "Scallop pasta",
-      category: "solo",
+      category: "portfolio",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+      link: "https://shrouded-gorge-64455.herokuapp.com/",
     },
     {
       name: "Burger",
@@ -86,12 +91,15 @@ const PhotoList = ({ category }) => {
     <div>
       <div className="flex-row">
         {currentPhotos.map((image, i) => (
-          <img
-            src={require(`../../assets/small/${category}/${i}.jpg`)}
-            alt={image.name}
-            className="img-thumbnail mx-1"
-            key={image.name}
-          />
+          //make image a link
+          <a href={image.link} target="_blank" rel="noopener noreferrer">
+            <img
+              src={require(`../../assets/small/${category}/${i}.jpg`)}
+              alt={image.name}
+              className="img-thumbnail mx-1"
+              key={image.name}
+            />
+          </a>
         ))}
       </div>
     </div>

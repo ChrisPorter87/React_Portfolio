@@ -6,14 +6,9 @@ import ContactForm from "./components/Contact";
 import Footer from "./components/Footer/footer";
 function App() {
   const [categories] = useState([
-    {
-      name: "group",
-      description:
-        "Photos of group projects that I've been a part of.  Feel free to click the image and be taken to the project page.",
-    },
     { name: "portraits", description: "Portraits of people in my life" },
     {
-      name: "solo",
+      name: "portfolio",
       description:
         "Screenshot photos of solo projects that I have created. Feel free to click the image and be taken to the project page.",
     },
