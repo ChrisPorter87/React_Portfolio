@@ -1,5 +1,5 @@
 import React from "react";
-
+// import { RiReactjsFill } from "react-icons/ri";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav(props) {
@@ -13,6 +13,9 @@ function Nav(props) {
   return (
     <header className="flex-row px-1">
       <h4>
+        {/* <img alt="react logo">
+          <RiReactjsFill className="icon" />
+        </img> */}
         <a data-testid="link" href="/">
           Chris Porter React Portfolio
         </a>

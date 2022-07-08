@@ -6,11 +6,10 @@ import ContactForm from "./components/Contact";
 import Footer from "./components/Footer/footer";
 function App() {
   const [categories] = useState([
-    { name: "portraits", description: "Portraits of people in my life" },
     {
       name: "portfolio",
       description:
-        "Screenshot photos of solo projects that I have created. Feel free to click the image and be taken to the project page.",
+        "Screenshot photos of projects that I have created individually or as a group. Feel free to click the image and be taken to the project page.",
     },
     // {
     //   name: "landscape",

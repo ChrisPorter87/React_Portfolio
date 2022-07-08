@@ -3,56 +3,6 @@ import React, { useState } from "react";
 const PhotoList = ({ category }) => {
   const [photos] = useState([
     {
-      name: "Recipe Pantry",
-      category: "group",
-      description:
-        " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
-
-      githublink: "https://github.com/charliebear2000/Food-andDrink-DB",
-    },
-    {
-      name: "Flute and Fork",
-      category: "group",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
-    },
-    {
-      name: "Building exterior",
-      category: " group",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
-    },
-    {
-      name: "Cafe interior",
-      category: " group",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
-    },
-    {
-      name: "Cat green eyes",
-      category: " portraits",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
-    },
-    {
-      name: "Green parrot",
-      category: " portraits",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
-    },
-    {
-      name: " Yellow macaw",
-      category: " portraits",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
-    },
-    {
-      name: "Pug smile",
-      category: "portraits",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
-    },
-    {
       name: "ExpressNoteTaker",
       category: "portfolio",
       description:
@@ -60,24 +10,25 @@ const PhotoList = ({ category }) => {
       link: "https://secure-taiga-31332.herokuapp.com/notes",
     },
     {
-      name: "Burrito",
+      name: "Cocktail generator",
       category: "portfolio",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
       link: "https://ckoehler16.github.io/Cocktail-Generator/",
     },
     {
-      name: "Scallop pasta",
+      name: "Food and Drink DB",
       category: "portfolio",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
       link: "https://shrouded-gorge-64455.herokuapp.com/",
     },
     {
-      name: "Burger",
-      category: "solo",
+      name: "Weather Dashboard",
+      category: "portfolio",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+      link: "https://chrisporter87.github.io/WeatherAssignment/",
     },
     {
       name: "Fruit bowl",
@@ -106,4 +57,3 @@ const PhotoList = ({ category }) => {
   );
 };
 export default PhotoList;
-// ${category}/${i}.jpg`).default}
