@@ -1,7 +1,7 @@
 main {
-  margin: 0 auto;
-  max-width: 90%;
-  padding: 50px 30px;
+  max-width: 100%;
+  padding: 30px;
+  background-color: black;
 }
 :root {
   --primary: #8c54ff;
@@ -32,7 +32,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--dark);
+  background: black;
   color: var(--light);
   font-family: "monaco", monospace;
 }
@@ -51,26 +51,32 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  color: var(--light);
 }
 
 h2 {
   font-size: 2rem;
+  color: var(--light);
 }
 
 h3 {
   font-size: 1.75rem;
+  color: var(--light);
 }
 
 h4 {
   font-size: 1.5rem;
+  color: var(--light);
 }
 
 h5 {
   font-size: 1.25rem;
+  color: var(--light);
 }
 
 h6 {
   font-size: 1rem;
+  color: var(--light);
 }
 
 p {
@@ -186,6 +192,7 @@ textarea {
 .mx-1 {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
+  color: var(--light);
 }
 
 .mx-2 {

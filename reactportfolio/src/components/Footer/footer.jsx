@@ -17,8 +17,4 @@ function Footer() {
   );
 }
 
-// make a clickable link to my github
-// <a href="
-// " target="_blank" rel="noopener noreferrer">
-// </a>
 export default Footer;

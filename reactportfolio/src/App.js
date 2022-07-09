@@ -4,8 +4,17 @@ import About from "./components/About";
 import Gallery from "./components/Gallery";
 import ContactForm from "./components/Contact";
 import Footer from "./components/Footer/footer";
+import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   const [categories] = useState([
+    {
+      name: "About me",
+      description: "",
+    },
+    {
+      name: "Contact",
+      description: "",
+    },
     {
       name: "portfolio",
       description:
@@ -18,29 +27,24 @@ function App() {
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
-  const [contactSelected, setContactSelected] = useState(false);
-
+  function renderPage(category) {
+    switch (category.name) {
+      case "About me":
+        return <About />;
+      case "Contact":
+        return <ContactForm />;
+      case "portfolio":
+        return <Gallery currentCategory={category} />;
+    }
+  }
   return (
     <div>
       <Nav
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
       ></Nav>
-      <main>
-        {!contactSelected ? (
-          <>
-            <Gallery currentCategory={currentCategory}></Gallery>
-            <About></About>
-            <Footer></Footer>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
-      </main>
+      <main>{renderPage(currentCategory)}</main>
     </div>
   );
 }
