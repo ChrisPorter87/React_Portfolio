@@ -17,7 +17,7 @@ function About() {
           developer. Although a very different career path, there are still
           plenty of transferrable traits such as my ability to make decisions
           under pressure, and my ability to remain calm under pressure. I'm very
-          personable, and fit in well with any time. I'm very professional, with
+          personable, and fit in well with any team. I'm very professional, with
           a strong work ethic, but also like to bring a light heartedness to the
           table, to make work a little bit more enjoyable for everyone. I
           appreciate you taking the time to check out my portfolio and look
