@@ -43,11 +43,11 @@ const PhotoList = ({ category }) => {
       githublink: "https://github.com/ChrisPorter87/Work-Day-Scheduler",
     },
     {
-      name: "Code quiz",
+      name: "BistroBox",
       category: "portfolio",
-      description: " A coding quiz created with javascript and jquery",
-      link: "https://chrisporter87.github.io/Code-Quiz/",
-      githublink: "https://github.com/ChrisPorter87/Code-Quiz",
+      description: " A team project that was a full stack application",
+      link: "https://bistro-box.herokuapp.com/",
+      githublink: "https://github.com/charliebear2000/BistroBox",
     },
   ]);
   const currentPhotos = photos.filter((photo) => photo.category === category);
