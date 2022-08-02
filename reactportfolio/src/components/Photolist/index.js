@@ -19,12 +19,13 @@ const PhotoList = ({ category }) => {
       githublink: "https://github.com/ckoehler16/Cocktail-Generator",
     },
     {
-      name: "Food and Drink DB",
+      name: "BistroBox",
       category: "portfolio",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
-      link: "https://shrouded-gorge-64455.herokuapp.com/",
-      githublink: "https://github.com/charliebear2000/Food-andDrink-DB",
+      link: "https://bistro-box.herokuapp.com/",
+      githublink:
+        "https://github.com/ChrisPorter87/ReactPortfolio/tree/main/reactportfolio",
     },
     {
       name: "Weather Dashboard",
